@@ -29,7 +29,7 @@ metadata:
   name: javawebapp
   namespace: test
 spec:
-  type: NodePort
+  type: LoadBalancer
   selector:
     app: javawebappsvc
   ports:
